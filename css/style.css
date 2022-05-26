@@ -1,6 +1,9 @@
  @import "reset.css";
  @import "component/header.css";
+ @import "component/main/main.css";
+@import "font/font.css";
+
 
 body{
-    height: 200vh;
+    height: 350vh;
 }

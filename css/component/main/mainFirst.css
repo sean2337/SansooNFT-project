@@ -1,0 +1,28 @@
+.main-first{
+    display: flex;
+    margin-top : 100px;
+    width: 100%;
+    height: 840px;
+    background-color: mintcream;
+    justify-content: center;
+    background-image: url('../../../images/mainimage2.png');
+    background-repeat:no-repeat;
+    background-position: center center;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.main-first h1{
+    
+    font-family: 'sangsangRock';
+    font-size: 200px;
+
+}
+
+.main-first p{
+    font-family: 'sangsangRock';
+    font-size: 50px;
+
+}
+
