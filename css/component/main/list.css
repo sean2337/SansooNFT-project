@@ -1,0 +1,52 @@
+footer {
+  height: 20px;
+  width: 100%;
+  position: sticky;
+  bottom: 40px;
+  margin-top: 10px;
+  display: flex;
+  justify-content: end;
+}
+
+#lists {
+  text-align: right;
+  border: 2px solid black;
+  border-radius: 50px;
+  float: right;
+  margin-right: 10px;
+  padding-left: 20px;
+  position: absolute;
+  box-shadow: 1px 1px 1px grey;
+}
+
+#list {
+  display: inline-block;
+  margin-right: 30px;
+  font-family: "sangsangRock";
+}
+
+li {
+  margin: 5px;
+  font-size: 25px;
+}
+
+a[title|="NFT-BUY"] {
+  padding: 5px 25px;
+  background: url("../../../images/opensea.png") no-repeat left center;
+  background-size: 20px;
+  color: black;
+}
+
+a[title|="Discord"] {
+  padding: 5px 25px;
+  background: url("../../../images/discord.png") no-repeat left center;
+  background-size: 18px;
+  color: black;
+}
+
+a[title|="Shop"] {
+  padding: 5px 25px;
+  background: url("../../../images/shopping.png") no-repeat left center;
+  background-size: 18px;
+  color: black;
+}
