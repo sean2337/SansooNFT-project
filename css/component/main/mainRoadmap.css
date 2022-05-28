@@ -1,6 +1,63 @@
-.main-roadmap{
-    display: flex;
+.main-roadmap {
     width: 100%;
-    height: 840px;
-    background-color: yellowgreen;
+    height: 1550px;
+    
+    font-family: "sangsangRock";
+    background-image: url("../../../images/logoreversescale.png");
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+  }
+
+  .roadmapTitle{
+      text-align: left;
+      padding-top : 50px;
+      margin-bottom: 50px;
+      font-size : 120px;
+      color: black;
+      margin-left: 30px;
+      
+  }
+
+#roadmap__small-title{
+    font-size: 50px;
+    margin-top: 120px;
+    margin-left: 30px;
 }
+
+
+
+
+
+
+
+  #roadmapContent {
+    text-align: left;
+    font-size : 20px;
+    font-weight: 300;
+    color: red;
+    margin-left: 30px;
+    margin-top: 30px;
+  }
+
+
+
+.roadmapOrder h1{
+    padding : 25px;
+}
+
+
+
+
+  .roadmapContent{
+      width : 400px;
+      height: 200px;
+      border-radius: 40px;
+      background-color: transparent;
+      border: 10px solid black;
+      text-align: center;
+      display:table-cell;
+      vertical-align:middle;
+      
+  }
