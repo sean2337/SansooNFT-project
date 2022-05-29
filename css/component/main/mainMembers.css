@@ -1,45 +1,43 @@
-.main-members{
-    
-    display: flex;
-    width: 100%;
-    height: 600px;
-    background-color: white;
-    border: 0.5px solid white;
+.main-members {
+  display: flex;
+  width: 100%;
+  height: 750px;
+  background: linear-gradient(to left bottom, grey, white);
+  border: 0.5px solid white;
+  flex-wrap: wrap;
 }
 
-
-
-.membersList{
-    display: flex;
-    margin : 130px 100px;
-    padding : 0 50px;
-    text-align: center;
-    line-height: 50px;
+.membersList {
+  display: flex;
+  margin: 130px 100px;
+  padding: 0 50px;
+  text-align: center;
+  line-height: 50px;
 }
 
-.memberList-column{
-    
-    
-    
-    padding : 0 30px;
-    margin : auto;
-    
+.memberList-column {
+  padding: 0 30px;
+  margin: auto;
+  font-family: "sangsangRock";
 }
-.profileImage{
-    
-    width : 250px;
-    height: auto;
-    border-radius: 200px;
+.profileImage {
+  width: 250px;
+  height: auto;
+  border-radius: 200px;
+  border: 3px solid #dcdcdc;
+  padding: 2px;
 }
 
-.role{
-    color: aquamarine;
-    font-size: 15px;
-   
-
+.profileImage:hover {
+  transform: scale(1.2);
+  transition: all 1s ease-in-out;
 }
 
-.memberName{
-    font-size: 20px;
-    
+.role {
+  color: #3a3845;
+  font-size: 20px;
+}
+
+.memberName {
+  font-size: 30px;
 }

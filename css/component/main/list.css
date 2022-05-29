@@ -50,3 +50,12 @@ a[title|="Shop"] {
   background-size: 18px;
   color: black;
 }
+
+.lastSection {
+  text-align: left;
+  padding-left: 350px;
+  color: grey;
+  margin-top: 36px;
+  font-size: 17px;
+  font-weight: bolder;
+}

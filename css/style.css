@@ -1,9 +1,13 @@
- @import "reset.css";
- @import "component/header.css";
- @import "component/main/main.css";
+@import "reset.css";
+@import "component/header.css";
+@import "component/main/main.css";
 @import "font/font.css";
+@import "component/main/product.css";
 
+body {
+  height: auto;
+}
 
-body{
-    height: 350vh;
+* {
+  scroll-behavior: smooth;
 }

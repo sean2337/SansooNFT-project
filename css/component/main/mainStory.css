@@ -6,7 +6,6 @@
   background-image: url("../../../images/storyimage.png");
   background-size: cover;
   background-repeat: no-repeat;
-
 }
 
 #story-section {
@@ -14,13 +13,24 @@
 }
 
 #big-title {
-  
+  font-family: "sangsangRock";
   display: block;
   padding-top: 30px;
   font-size: 120px;
   text-align: right;
   padding-right: 100px;
   padding-bottom: 100px;
+}
+
+#big-title2 {
+  font-family: "sangsangRock";
+  display: block;
+  padding-top: 50px;
+  font-size: 100px;
+  text-align: right;
+  padding-right: 100px;
+  text-align: right;
+  width: 100%;
 }
 
 #small-title {
@@ -30,7 +40,7 @@
   display: block;
   font-size: 40px;
   padding-left: 10px;
-  margin-left : 20px;
+  margin-left: 20px;
 }
 
 #Content {
@@ -38,5 +48,5 @@
   padding-left: 10px;
   font-size: 20px;
   line-height: 160%;
-  margin-left : 20px;
+  margin-left: 20px;
 }
