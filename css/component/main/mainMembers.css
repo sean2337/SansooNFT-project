@@ -5,11 +5,12 @@
   background: linear-gradient(to left bottom, grey, white);
   border: 0.5px solid white;
   flex-wrap: wrap;
+  padding-bottom: 200px;
 }
 
 .membersList {
   display: flex;
-  margin: 130px 100px;
+  text-align: center;
   padding: 0 50px;
   text-align: center;
   line-height: 40px;
@@ -35,6 +36,18 @@
   transition: all 1s ease-in-out;
 }
 
+#big-title2 {
+  font-family: "sangsangRock";
+  display: block;
+  margin-bottom:100px;
+  padding-top: 50px;
+  font-size: 100px;
+  text-align: right;
+  padding-right: 100px;
+  text-align: right;
+  width: 100%;
+}
+
 .role {
   color: #3a3845;
   font-size: 20px;
@@ -45,3 +58,4 @@
   font-size: 30px;
   margin-top: 20px;
 }
+

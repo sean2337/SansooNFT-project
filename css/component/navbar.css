@@ -61,11 +61,12 @@ height: 30px;
 }
 
 
-@media screen and (max-width:768px){
+@media screen and (max-width:800px){
 
   nav{
     position : sticky;
     top : 0;
+    
   }
 
   .navbar{
@@ -102,7 +103,7 @@ height: 30px;
     right : 32px;
     top : 15px;
     font-size : 30spx;
-    color : white;
+    color : red;
   }
 
   .navbar__menu.active,

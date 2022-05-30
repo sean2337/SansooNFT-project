@@ -47,3 +47,17 @@
   display: table-cell;
   vertical-align: middle;
 }
+
+
+
+@media screen and (max-width : 768px){
+  .roadmapTitle{
+    width: 100%;
+    text-align: center;
+
+  }
+
+  .roadmap-section{
+    text-align: center;
+  }
+}

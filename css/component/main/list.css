@@ -59,3 +59,24 @@ a[title|="Shop"] {
   font-size: 17px;
   font-weight: bolder;
 }
+
+
+@media  screen and (max-width:768px) {
+  #lists{
+    text-align: center;
+
+    padding-left: 0;
+    
+  }
+  
+  #list{
+    margin-right : 10px;
+
+  }
+
+  .lastSection{
+  padding-left: 30px;
+  margin-bottom : 50px;
+  
+  }
+}

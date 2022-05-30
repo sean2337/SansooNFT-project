@@ -10,7 +10,7 @@
 }
 
 #story-section {
-  width: 50%;
+  width:50%;
 }
 
 #big-title {
@@ -23,16 +23,6 @@
   padding-bottom: 100px;
 }
 
-#big-title2 {
-  font-family: "sangsangRock";
-  display: block;
-  padding-top: 50px;
-  font-size: 100px;
-  text-align: right;
-  padding-right: 100px;
-  text-align: right;
-  width: 100%;
-}
 
 #small-title {
   padding-top: 20px;
@@ -53,3 +43,15 @@
 }
 
 
+@media screen and (max-width:768px){
+  #big-title {
+    text-align: center;
+    padding: 0;
+  }
+  
+#story-section {
+  width: 100%;
+  text-align: center;
+  
+}
+}
