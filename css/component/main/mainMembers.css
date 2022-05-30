@@ -20,7 +20,7 @@
   padding: 0 30px;
   margin: auto;
   font-family: "sangsangRock";
-  width: 20%;
+  width: 25%;
 }
 .profileImage {
   width: 100%;
@@ -38,6 +38,7 @@
 .role {
   color: #3a3845;
   font-size: 20px;
+  width: auto;
 }
 
 .memberName {
